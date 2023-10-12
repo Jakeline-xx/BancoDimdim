@@ -24,7 +24,7 @@ Hibernate:
        add constraint FKfksaesgpmec0cph81iq5or1wn
        foreign key (cliente_id)
        references cliente
-
+```
 
 Criação do banco de dados sqlserver via terminal após criação do grupo de recursos:
 az sql server create -l brazilsouth -g bancosql -n sqlserver-rm96261 -u admuser -p minhasenha123@ --enable-public-network true
