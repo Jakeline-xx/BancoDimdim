@@ -31,7 +31,7 @@ Hibernate:
  az sql db create -g bancosql -s sqlserver-rm96261 -n dimdim --service-objective Basic --backup-storage-redundancy Local --zone-redundant false
  az sql server firewall-rule create -g bancosql -s sqlserver-rm96261 -n AllowAll --start-ip-address 0.0.0.0 --end-ip-address 255.255.255.255
 
- Para deploy desse código em Nuvem da mesma forma mostrada no vídeo:
+ # Para deploy desse código em Nuvem da mesma forma mostrada no vídeo:
 
  Utilizar a IDE do VS Code, baixar as extensões da Azure (Azure App Service e Azure Account)
  Utilizar ícone da Azure, selecionar o plano, criar um app service com as informações do projeto: 
